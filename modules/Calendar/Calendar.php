@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 
-
-
+require_once('modules\HijriDateLib-master');
+require_once('modules\Calendar-Hijri\Calendar.php');
 require_once('include/utils/activity_utils.php');
 require_once('modules/Calendar/CalendarUtils.php');
 require_once('modules/Calendar/CalendarActivity.php');
