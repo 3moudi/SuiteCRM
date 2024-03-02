@@ -57,7 +57,6 @@ require_once 'SarahSpell.php';
  * @link      http://www.ar-php.org
  */
 
-require_once('modules\HijriDateLib-master');
 
 class Arabic
 {
