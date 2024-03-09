@@ -41,7 +41,7 @@
 if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
-
+ '$dir' => 'rtl',
 $mod_strings = array(
 
     'LBL_SHAREDWEEK' => 'مشاركة في الأسبوع',
