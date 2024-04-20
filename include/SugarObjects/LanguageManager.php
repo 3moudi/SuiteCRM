@@ -307,7 +307,9 @@ class LanguageManager
      * @static
      * @return void
      */
-    public static function removeJSLanguageFiles()
+
+
+     public static function removeJSLanguageFiles()
     {
         $jsFiles = array();
         getFiles($jsFiles, sugar_cached('jsLanguage'));
@@ -323,4 +325,6 @@ class LanguageManager
 
         write_array_to_file("sugar_config", $GLOBALS['sugar_config'], "config.php");
     }
+
+    
 }
