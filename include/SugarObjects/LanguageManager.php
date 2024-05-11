@@ -296,6 +296,8 @@ class LanguageManager
      * @param  $lang
      * @return string
      */
+
+     
     public static function getLanguageCacheKey($module, $lang)
     {
         return "LanguageManager.$module.$lang";
